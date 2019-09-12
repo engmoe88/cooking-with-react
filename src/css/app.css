@@ -1,0 +1,24 @@
+/* importing normalize will make all different browsers use the same default  */
+@import-normalize;
+@import './recipe-list.css';
+@import './buttons.css';
+@import './recipe.css';
+@import './ingredient-list.css';
+
+
+*, *::before, *::after {
+    font-family: 'Franklin Gothic Medium', sans-serif;
+}
+
+html {
+    font-size: 25px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.mr-1 {
+    margin-right: 5px;
+}
